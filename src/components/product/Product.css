@@ -1,0 +1,21 @@
+
+.img-area img{
+    width: 200px;
+    height: 250px;
+}
+.single-product-container{
+    border: 2px solid;
+    display: flex;
+    padding: 10px 15px;
+    height: 400px;
+    width: 200px;
+    margin:20px;
+    flex-direction: column;
+}
+.link-product{
+    display:flex;
+    justify-content: space-around;
+}
+.product-info{
+    text-align: center;
+}

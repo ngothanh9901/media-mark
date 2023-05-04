@@ -1,0 +1,19 @@
+.layout{
+    height: 60px;
+    background-color: black;
+    text-align: center;
+}
+.layout nav ul { 
+    margin: auto;
+    width:700px;
+    display:flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+.layout nav ul li{
+    margin:30px;
+    text-decoration: none;
+}
+.layout nav ul li a {
+    color: white;
+  }

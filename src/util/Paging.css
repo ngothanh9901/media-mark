@@ -1,0 +1,17 @@
+.paging{
+    display:flex;
+    justify-content: center;
+
+}
+.active{
+    background-color:chartreuse;
+}
+.paging button{
+    margin: 2px;
+    /* background-color: white; */
+    color: black;
+    text-align: center;
+    line-height: 15px;
+    width: 15px;
+}
+
