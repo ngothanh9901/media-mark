@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Shop from "./components/shop/Shop";
 import Cart from "./components/cart/Cart"
 import Register from "./components/register/Register";
+import Payment from "./components/payment/payment";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="login" element={<Login/>} />
         <Route path="cart" element={<Cart/>} />
         <Route path="register" element={<Register/>} />
+        <Route path = "confirmation" element={<Payment/>}/>
       </Route>
     </Routes>
   </BrowserRouter>
