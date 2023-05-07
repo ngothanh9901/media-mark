@@ -1,28 +1,71 @@
 .product-cart{
     display: flex;
-    margin: 40px;
-    justify-content: space-around;
+    margin: 10px;
+    justify-content: space-between;
+    padding: 0 35px 0 15px;
+    
 }
 .product-cart >.img-area img{
-    width: 150px;
+    width: 190px;
     height: 150px;
     
 }
 .product-cart > .product-info{
+    font-family: 'Roboto Condensed', sans-serif;
     margin: 50px;
+    font-size: 20px;
 }
 .product-cart >.qty{
+    
+    color: black;
     display: flex;
+    justify-content: center; 
+    align-items: center; 
     border: none;
-    margin:50px;
+    margin:40px;
     height: 50px;
-    width: 200px;
+    width: 120px;
+}
+.num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.btnNum{
+    
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+.btnNum2{
+    
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+.btnNum:hover{
+    color: aqua;
 }
 .btn-delete{
-    margin:60px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
     height: 30px;
     width: 30px;
 }
 .btn-delete:hover{
-    background-color: red;
+    color: red;
+}
+
+.divider{
+    border-bottom: 1px solid #ccc;
+}
+
+.name-info{
+    display: flex;
+    flex-direction: column;
 }

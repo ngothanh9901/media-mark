@@ -1,19 +1,60 @@
 .layout{
-    height: 60px;
-    background-color: black;
+    height: 80px;
+    background-color: rgb(2, 42, 87);
     text-align: center;
+}
+nav{
+  width: 100%;
 }
 .layout nav ul { 
     margin: auto;
-    width:700px;
-    display:flex;
+    width:900px;
+    display: flex;
     list-style-type: none;
     text-decoration: none;
 }
 .layout nav ul li{
-    margin:30px;
+    margin:20px;
     text-decoration: none;
 }
 .layout nav ul li a {
     color: white;
   }
+
+
+.layout nav ul li .searchBar {
+    display: flex;
+    margin-left: 50px;
+    margin:auto;
+  }
+
+  .searchBar input[type="text"] {
+    width: 350px;
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  .searchBar button[type="submit"] {
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.layout .logo{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.layout .nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.nameAccount{
+  color: hwb(0 100% 0%);
+}

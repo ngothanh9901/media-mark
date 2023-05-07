@@ -1,13 +1,55 @@
 .App{
-  width: 1100px;
-  margin:auto;
-  margin-top:100px;
-  margin-bottom: 15px;
-  /* border: 2px solid; */
-  padding: 15px;
+  width: 1280px;
+  margin-top:1px;
+  margin-bottom: 2px;
+  padding: 1px;
+  
+  
 }
+
+.bo{
+  display: flex;
+  flex-flow:row;
+
+}
+.divider {
+  border-left: 1px solid #ccc;
+}
+
 .products{
+    font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     display:flex;
     flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 5px;
+    width: 95%;
    
   }
+
+.category{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-left: 40px;
+  width: 5%;
+}
+
+.cateItem{
+  font-size: 20px;
+}
+
+.priceOption{
+  font-size: 60px;
+  display: flex;
+}
+
+.high{
+  margin-left: 10px;
+}
+
+.ratingOption{
+  font-size: 20px;
+}
+
+
+  
+  

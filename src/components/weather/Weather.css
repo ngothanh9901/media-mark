@@ -1,0 +1,74 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.weather{
+    text-align: center;
+    color:white;
+    width: 380px;
+    padding:30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background: linear-gradient(120deg, rgb(86,86,235), rgb(5,5,199));
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.search input{
+    border: none;
+    outline: 0;
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 12px;
+}
+
+.search button{
+    border: none;
+    outline: 0;
+    width: 50px;
+    height: 46px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.win_infor img{
+    width: 100px;
+    margin-top: 20px;
+
+}
+.search button img{
+    width: 20px;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+
+.detail .col .img{
+    font-size: 20px;
+    width: 25px;
+    margin-right: 10px;
+}
+.huminity, .wind{
+    font-size: 20px;
+}
+
+.error{
+    color:red;
+    text-align: left;
+    margin-right: 10px;
+
+}

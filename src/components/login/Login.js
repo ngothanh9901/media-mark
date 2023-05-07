@@ -63,7 +63,7 @@ export default function Login(){
 
             <form onSubmit={handleSubmit}>
                 <div className="imgcontainer">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXpyl9XyBbun_MqGSVEXips0DXfuLNzKKQ7A&usqp=CAU" alt="Avatar" className="avatar"/>
+                    <img src="https://img.freepik.com/premium-vector/laptop-shop-isometric-flat-icon-with-laptop-isometric-white-background-site-design-computer-interface-marketing-concept-vector-illustration-concept_397674-1407.jpg?w=740" alt="Avatar" className="avatar"/>
                 </div>
   
                 <div className="container">

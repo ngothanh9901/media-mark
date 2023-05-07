@@ -70,7 +70,7 @@ export default function Register(){
             <form onSubmit={handleSubmit}>
                 <div className="container">
                     <h1>Register</h1>
-                    <p>Please fill in this form to create an account.</p>
+               
                     <hr/>
 
                     <label for="name"><b>Name</b></label>
